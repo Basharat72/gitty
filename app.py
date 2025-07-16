@@ -10,4 +10,6 @@ def fetch_and_plot(ticker):
     plt.show()
 
 if __name__ == "__main__":
-    fetch_and_plot("TCS.NS")
+    ticker_input = input("Enter ticker symbol (e.g. TCS.NS): ")
+    fetch_and_plot(ticker_input)
+
